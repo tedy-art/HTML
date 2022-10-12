@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*The ::before Pseudo-element*/
+h1::before {
+  content: url(smiley.gif);
+}
+/*The ::after Pseudo-element*/
+h1::after {
+  content: url(lamp.jpg);
+}
+
+/*The ::marker Pseudo-element*/
+::marker { 
+  color: red;
+  font-size: 25px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<h1>This is a heading</h1>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  
+  <ol>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ol>
+
+</body>
+</html>

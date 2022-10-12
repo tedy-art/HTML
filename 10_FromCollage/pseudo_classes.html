@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*active*/ 
+a:active {
+  background-color: yellow;
+}
+
+/*checked*/
+input:checked {
+  height: 50px;
+  width: 50px;
+}
+/*enabled and disable*/
+input[type=text]:enabled {
+  background: #ffff00;
+}
+
+input[type=text]:disabled {
+  background: #dddddd;
+}
+/*empty*/
+p:empty {
+  width: 100px;
+  height: 20px;
+  background: #ff0000;
+}
+/*focus*/
+#s1 input:focus {
+  background-color: blue;
+}
+/*in-range*/
+input:in-range {
+  border: 2px solid yellow;
+}
+/*first-child*/
+p:first-child {
+  background-color: cyan;
+}
+/*hover*/
+p:hover {
+  background-color: green;
+}
+/*invalid*/
+input:invalid {
+  border: 2px solid red;
+}
+</style>
+</head>
+<body>
+<a href="https://www.facebook.com">facebook.com</a>
+<a href="http://www.wikipedia.org">wikipedia.org</a>
+    
+<p><b>Note:</b> The :active selector styles the active link.</p>
+    
+<form action="">
+  <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+  <input type="radio" value="female" name="gender"> Female<br>
+  <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+  <input type="checkbox" value="Car"> I have a car 
+</form>
+
+<form action="">
+    First name: <input type="text" value="Mickey"><br>
+    Last name: <input type="text" value="Mouse"><br>
+    Country: <input type="text" disabled="disabled" value="Disneyland">
+</form>
+
+<p></p>
+<p>A paragraph.</p>
+<p>Another paragraph.</p>
+
+<p>Click inside the text fields to see a yellow background:</p>
+
+<form>
+  First name: <input type="text" name="firstname"><br>
+  Last name: <input type="text" name="lastname">
+</form>
+
+<h3>A demonstration of the :in-range selector.</h3>
+
+<input type="number" min="5" max="10" value="7">
+
+<p>Try typing a number out of range (less than 5 or higher than 10), to see the styling disappear.</p>
+
+
+<p>This paragraph is the first child of its parent (body).</p>
+
+<h1>Welcome to My Homepage</h1>
+<p>This paragraph is not the first child of its parent.</p>
+
+<div>
+  <p>This paragraph is the first child of its parent (div).</p>
+  <p>This paragraph is not the first child of its parent.</p>
+</div>
+<a class="s1" href="https://www.w3schools.com">w3schools.com</a>
+<a class="s1" href="https://www.wikipedia.org">wikipedia.org</a>
+
+<p><b>Note:</b> The :hover selector style links on mouse-over.</p>
+
+<h3>A demonstration of the :invalid selector.</h3>
+
+<input type="email" value="supportEmail">
+
+<p>Try typing a legal e-mail address, to see the styling disappear.</p>
+
+<p><strong>Note</strong>: The :invalid selector is not supported in Internet Explorer 9 and earlier versions.</p>
+</body>
+</html>

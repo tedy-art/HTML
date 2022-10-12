@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment</title>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="2100" height="1052" style="border: green;"></canvas>
+
+        <script>
+            var c=document.getElementById("myCanvas")
+            var ctx=c.getContext("2d")
+
+            ctx.beginPath();
+            ctx.moveTo(156,121);
+            ctx.lineTo(805,121);
+            
+			ctx.moveTo(156,121);
+            ctx.lineTo(156,457);
+			
+			ctx.moveTo(156,457);
+            ctx.lineTo(805,457);
+			
+			ctx.moveTo(805,457);
+            ctx.lineTo(805,121);
+			
+			ctx.moveTo(156,282);
+            ctx.lineTo(805,282);
+			
+			ctx.moveTo(464,121);
+            ctx.lineTo(464,457);
+            ctx.strokeStyle = "Black";
+            ctx.stroke();
+            
+        </script>
+    </body>
+
+</html>

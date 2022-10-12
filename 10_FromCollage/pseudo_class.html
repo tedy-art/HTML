@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/*Simple Tooltip Hover*/
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+a.highlight:hover {
+  color: #ff0000;
+}
+/*Pseudo-classes and CSS Classes*/
+div {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+/*Hover on <div>*/
+div:hover {
+  background-color: blue;
+}
+
+
+
+/**/
+</style>
+</head>
+<body>
+<div>Hover over me to show the p element
+    <p>Tada! Here I am!</p>
+</div>
+
+<h2>Pseudo-classes and CSS Classes</h2>
+<p>When you hover over the first link below, it will change color:</p>
+
+<p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+<p><a href="default.asp">CSS Tutorial</a></p>
+
+
+<p>Mouse over the div element below to change its background color:</p>
+<div>Mouse Over Me</div>
+
+
+
+</body>
+</html>

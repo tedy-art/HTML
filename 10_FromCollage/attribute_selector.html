@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*CSS [attribute] Selector*/
+a[target] {
+  background-color: yellow;
+}
+/*CSS [attribute="value"]Selector*/
+a[target=_blank] {
+  background-color: green;
+}
+/*CSS [attribute~="value"] Selector*/
+[title~=flower] {
+  border: 5px solid yellow;
+}
+/*CSS [attribute|="value"] Selector*/
+[class|=top] {
+  background: red;
+}
+/*CSS [attribute^="value"] Selector*/
+[class^="mid"] {
+  background: cyan;
+}
+
+</style>
+</head>
+<body>
+
+<h1>CSS [attribute] Selector</h1>
+
+<div>
+    <a href="https://www.facebook.com">Facebook.com</a>
+    <a href="http://www.disney.com" target="">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+</div>
+
+<div>
+    <a href="https://web.whatsapp.com/" target="_blank">Whatsapp.com</a>
+    <a href="https://www.youtube.com/"target="">youtube.com</a>
+</div>
+
+<div>
+    <img src="klematis.jpg" title="klematis flower" width="150" height="113">
+    <img src="img_flwr.gif" title="flower" width="224" height="162">
+    <img src="img_tree.gif" title="tree" width="200" height="358">
+</div>
+
+<div>
+    <h1 class="top-header">Welcome</h1>
+    <p class="top-text">Hello world!</p>
+    <p class="topcontent">Are you learning CSS?</p>
+</div>
+
+<div>
+    <h1 class="mid-header">Welcome</h1>
+    <p class="mid-text">Hello world!</p>
+    <p class="midcontent">Are you learning CSS?</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+  
+td, th {
+    border: 5px solid black;
+    color: #000080;
+    font-family: "Times New Roman";
+    padding: 8px;
+}
+td{
+    text-align: left;
+    font-size: 13px;
+    font-style: italic;
+}
+p.b{
+    border-style: solid;
+    border-color: magenta;
+}
+a:link{
+    color: maroon;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border:  3px solid blue;
+    border-color: #0000ff #ff0000 ;
+} 
+td, th {
+    border: 1px solid #ff00ff;
+    color: #000080;
+    font-family: "Times New Roman";
+    padding: 8px;
+}
+h2{
+    text-indent: 10px;
+}
+p{
+    background-image: url("css_bg-img.jpeg");
+    color: aliceblue;
+}

@@ -1,0 +1,12 @@
+h4{
+    background-image: url("css-gallery.jpg");
+    text-decoration: underline;
+    text-align: center;
+    word-spacing: normal;
+    color: rgb(228, 22, 39);
+}
+p a{
+    font-family: "Comic Sans MS";
+    color: yellow;
+    background-color: green;    
+}

@@ -1,0 +1,20 @@
+h1{
+    text-indent: 27%;
+}
+table td{
+    align-content: center;
+    border-width: thick;
+    border-collapse: collapse
+}
+td{
+    font-size: 25px;
+}
+thead{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+tr:nth-child(odd){
+    background-color: aqua;
+}
