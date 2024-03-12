@@ -1,4 +1,6 @@
-![HTML LOGO](https://github.com/tedy-art/HTML/blob/main/Examples/pngegg.png "a HTML logo")
+<div style="text-align:center">
+    <img src="https://github.com/tedy-art/HTML/blob/main/Examples/pngegg.png" />
+</div>
 # **HTML**
 
 # What is HTML??
